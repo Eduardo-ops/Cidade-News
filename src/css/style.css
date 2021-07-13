@@ -45,3 +45,7 @@ body{
     height: 4px;
     width: 152px;
 }
+
+#topo a{
+    text-decoration: none;
+}
