@@ -1,0 +1,47 @@
+
+/* Zerando formatações pré-definidas da página */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body com background e font aplicada */
+body{
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+    background: #fff url(../../imagens/fundo.png) repeat-x;
+}
+
+/* Área principal dos conteúdos */
+#container{
+    width: 720px;
+    margin: 0 auto;
+}
+
+/* Área onde vai ficar a logo e figura do mapa */
+#topo{
+    height: 150px;
+    background: url(../../imagens/detalhe-topo.png) no-repeat top right;
+    padding-top: 20px;
+}
+
+/* Primeira palavra do título estilizada */
+.titulo-I{
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Segunda palavra do título estilizada */
+.titulo-II{
+    font-size: 4em;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Divisor vermelho entre as duas palavras do título para dar efeito */
+#divisor{
+    border: 1px solid #BEBEBE;
+    background: red;
+    height: 4px;
+    width: 152px;
+}
