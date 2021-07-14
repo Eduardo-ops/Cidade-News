@@ -50,3 +50,21 @@ body{
 #topo a{
     text-decoration: none;
 }
+
+/* BARRA DE NAVEGAÇÃO */
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#navegacao-horizontal{
+    margin-top: 80px;
+    background: #b10333;
+    float: left;
+}
+
+#navegacao-horizontal li{
+    float: left;
+}
