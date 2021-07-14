@@ -74,12 +74,18 @@ ul{
     display: block;
     padding: 0.5em 1.4em;
     text-decoration: none;
+    font-weight: bold;
     line-height: 2.1em;
     color: #fff;
- border-left: 1px solid yellow;
+    border-left: 1px solid #db0440;
 }
 
 #navegacao-horizontal .primeiro a{
     border: none;
 }
+
+#navegacao-horizontal a:hover{
+    color: #fa5280;
+}
+
 
