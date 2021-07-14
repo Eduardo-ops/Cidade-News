@@ -60,7 +60,7 @@ ul{
 }
 
 #navegacao-horizontal{
-    margin-top: 80px;
+    margin-top: 70px;
     background: #b10333;
     float: left;
 }
@@ -68,3 +68,18 @@ ul{
 #navegacao-horizontal li{
     float: left;
 }
+
+#navegacao-horizontal a{
+    font-size: 1em;
+    display: block;
+    padding: 0.5em 1.4em;
+    text-decoration: none;
+    line-height: 2.1em;
+    color: #fff;
+ border-left: 1px solid yellow;
+}
+
+#navegacao-horizontal .primeiro a{
+    border: none;
+}
+
