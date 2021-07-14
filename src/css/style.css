@@ -46,6 +46,7 @@ body{
     width: 152px;
 }
 
+/* Links dentro do id="topo", teram o estilo abaixo realizado */
 #topo a{
     text-decoration: none;
 }
