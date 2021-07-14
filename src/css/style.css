@@ -53,22 +53,26 @@ body{
 
 /* BARRA DE NAVEGAÇÃO */
 
+/* Zerando formatações padrões de lista */
 ul{
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
+/* Elemento de id "navegacao-horizontal" */
 #navegacao-horizontal{
     margin-top: 70px;
     background: #b10333;
     float: left;
 }
 
+/* Tag <li> dentro de elemento de id "navegacao-horizontal" */
 #navegacao-horizontal li{
     float: left;
 }
 
+/* Tag <a> dentro do elemento de id "navegacao-horizontal" */
 #navegacao-horizontal a{
     font-size: 1em;
     display: block;
@@ -80,12 +84,33 @@ ul{
     border-left: 1px solid #db0440;
 }
 
+/* Tag <a> dentro de elemento de classe "primeiro" e id "navegacao-horizontal" */
 #navegacao-horizontal .primeiro a{
     border: none;
 }
 
+/* Tag <a> no estado de hover dentro de elemento com id "navegacao-horizontal" */
 #navegacao-horizontal a:hover{
     color: #fa5280;
 }
 
+/* 
+Efeito implementado que, ao acessar um determinado link, 
+ocorre a estilização abaixo para cada tipo de acesso.
+
+Tag <a> com determinado id, dentro de elemento com id "navegacao-horizontal" e dentro de body
+com determinada classe. 
+*/
+.home #navegacao-horizontal a#home,
+.brasil #navegacao-horizontal a#brasil,
+.internacional #navegacao-horizontal a#internacional,
+.economia #navegacao-horizontal a#economia,
+.saude #navegacao-horizontal a#saude,
+.cencia #navegacao-horizontal a#cencia,
+.fotos #navegacao-horizontal a#fotos
+{
+    color: #fff;
+    background: #ff0046;
+    cursor: text;
+}
 
