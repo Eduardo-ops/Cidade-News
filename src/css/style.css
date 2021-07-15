@@ -147,4 +147,7 @@ com determinada classe.
     text-align: center;
     color: #fff;
     font-size: 1.1em;
+    position: absolute;
+    bottom: 0;
+    width:100%;
 }
