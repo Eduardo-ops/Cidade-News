@@ -62,7 +62,7 @@ ul{
 
 /* Elemento de id "navegacao-horizontal" */
 #navegacao-horizontal{
-    margin-top: 70px;
+    margin-top: 80px;
     background: #b10333;
     float: left;
 }
@@ -114,3 +114,27 @@ com determinada classe.
     cursor: text;
 }
 
+/* LAYOUT DE TRÊS COLUNAS PARA CONTEÚDO */
+
+#conteudo{
+    background: cyan;
+    margin-top: 130px;
+}
+
+#coluna-primaria{
+    width: 270px;
+    float: left;
+    background: red;
+}
+
+#coluna-secundaria{
+    width: 270px;
+    float: left;
+    background: blue;
+}
+
+#coluna-lateral{
+    width: 180px;
+    float: left;
+    background: green;
+}
