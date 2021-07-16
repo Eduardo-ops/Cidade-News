@@ -119,24 +119,32 @@ com determinada classe.
 #conteudo{
     background: cyan;
     margin-top: 130px;
+    display: flex;
+    flex-direction: row;
 }
+
+#conteudo :nth-child(1) {order: 1;}
+#conteudo :nth-child(2) {order: 1;}
 
 #coluna-primaria{
     width: 270px;
-    float: left;
+	float: left;
+    margin: 0 20px 20px 20px;
     background: red;
 }
 
 #coluna-secundaria{
+    background: green;
     width: 270px;
-    float: left;
-    background: blue;
+	float: left;
+    margin-bottom: 20px;
 }
 
 #coluna-lateral{
+    background: blue;
     width: 180px;
-    float: left;
-    background: green;
+	float: left;
+    margin-bottom: 20px;
 }
 
 #container-rodape{
