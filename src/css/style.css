@@ -139,15 +139,16 @@ com determinada classe.
     background: green;
 }
 
-
-#rodape{
+#container-rodape{
     clear: both;
     background: #000;
+}
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
     padding: 40px;
     text-align: center;
     color: #fff;
     font-size: 1.1em;
-    position: absolute;
-    bottom: 0;
-    width:100%;
 }
