@@ -123,9 +123,11 @@ com determinada classe.
     flex-direction: row;
 }
 
+/* Ordenando os elementos filhos <div> do elemento com id "conteudo" */
 #conteudo :nth-child(1) {order: 1;}
 #conteudo :nth-child(2) {order: 1;}
 
+/* Elemento com id "coluna-primaria" */
 #coluna-primaria{
     width: 270px;
 	float: left;
@@ -133,6 +135,7 @@ com determinada classe.
     background: red;
 }
 
+/* Elemento com id "coluna-secundaria" */
 #coluna-secundaria{
     background: green;
     width: 270px;
@@ -140,6 +143,7 @@ com determinada classe.
     margin-bottom: 20px;
 }
 
+/* Elemento com id "coluna-lateral" */
 #coluna-lateral{
     background: blue;
     width: 180px;
@@ -147,11 +151,13 @@ com determinada classe.
     margin-bottom: 20px;
 }
 
+/* Elemento com id "container-rodape" */
 #container-rodape{
     clear: both;
     background: #000;
 }
 
+/* Elemento com id "rodape" */
 #rodape{
     width: 750px;
     margin: 0 auto;
