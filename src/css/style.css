@@ -151,7 +151,7 @@ com determinada classe.
 /* CAIXA */
 
 .caixa{
-    background: #f3f3f3;
+    /* background: #f3f3f3; */
     margin: 10px 0;
     padding: 5px;
 }
@@ -212,6 +212,33 @@ input.submit{
     border: 2px solid #870529;
     padding: 5px;
     cursor: pointer;
+}
+
+/* IMAEGNS */
+
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/* CABECALHOS */
+
+#coluna-secundaria h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    background: #b10333;
+    color: #fff;
+}
+
+#coluna-primaria h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    background: #ff054c;
+    color: #000;
 }
 
 /* Elemento com id "rodape" */
