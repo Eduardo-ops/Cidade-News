@@ -117,7 +117,7 @@ com determinada classe.
 /* LAYOUT DE TRÊS COLUNAS PARA CONTEÚDO */
 
 #conteudo{
-    background: cyan;
+    /* background: cyan; */
     margin-top: 130px;
     display: flex;
     flex-direction: row;
@@ -132,12 +132,10 @@ com determinada classe.
     width: 270px;
 	float: left;
     margin: 0 20px 20px 20px;
-    background: red;
 }
 
 /* Elemento com id "coluna-secundaria" */
 #coluna-secundaria{
-    background: green;
     width: 270px;
 	float: left;
     margin-bottom: 20px;
@@ -145,16 +143,35 @@ com determinada classe.
 
 /* Elemento com id "coluna-lateral" */
 #coluna-lateral{
-    background: blue;
     width: 180px;
 	float: left;
     margin-bottom: 20px;
+}
+
+/* CAIXA */
+
+.caixa{
+    background: #f3f3f3;
+    margin: 10px 0;
+    padding: 5px;
+}
+h2{
+    background: #294c71;
+    font-size: 1.1em;
+    color: #fff;
+    padding: 5px;
 }
 
 /* Elemento com id "container-rodape" */
 #container-rodape{
     clear: both;
     background: #000;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 10px;
 }
 
 /* Elemento com id "rodape" */
