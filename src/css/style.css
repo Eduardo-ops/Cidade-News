@@ -275,6 +275,44 @@ img.imagem-principal{
     cursor: pointer;
 }
 
+/* LISTA DE NOTÍCIAS RECENTES */
+
+#lista-noticias-recentes .primeiro-link-recente{
+    margin-top: 14px;
+}
+
+#lista-noticias-recentes li{
+    padding: 2px;
+    border-bottom: 1px solid #f3f3;
+    height: 75px;
+}
+
+#lista-noticias-recentes a img{
+    float: left;
+    margin: 4px;
+}
+
+#lista-noticias-recentes a{
+    text-decoration: none;
+}
+
+#lista-noticias-recentes li h3{
+    background: none;
+    font-size: 0.8em;
+    color: #3e7ab9;
+    padding: 0;
+}
+
+#lista-noticias-recentes li p{
+    font-size: 0.8em;
+    color: #000;
+}
+
+#lista-noticias-recentes li:hover{
+    background: #eee;
+    cursor: pointer;
+}
+
 /* Elemento com id "rodape" */
 #rodape{
     width: 750px;
