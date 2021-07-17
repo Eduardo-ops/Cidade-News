@@ -7,7 +7,7 @@
 
 /* body com background e font aplicada */
 body{
-    font-family: Trebuchet MS, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
     background: #fff url(../../imagens/fundo.png) repeat-x;
 }
 
@@ -76,7 +76,7 @@ ul{
 #navegacao-horizontal a{
     font-size: 1em;
     display: block;
-    padding: 0.5em 1.4em;
+    padding: 0.6em 1.3em;
     text-decoration: none;
     font-weight: bold;
     line-height: 2.1em;
@@ -118,7 +118,7 @@ com determinada classe.
 
 #conteudo{
     /* background: cyan; */
-    margin-top: 130px;
+    margin-top: 120px;
     display: flex;
     flex-direction: row;
 }
@@ -251,7 +251,7 @@ img.imagem-principal{
 
 #lista-noticias li a img{
     float: left;
-    margin: 5px;
+    margin: 4px;
 }
 
 #lista-noticias li a{
@@ -262,13 +262,18 @@ img.imagem-principal{
     padding: 0;
     font-size: 0.8em;
     color: #3e7ab9;
+    background: none;
 }
 
 #lista-noticias li p{
-    font-size: 0.7em;
+    font-size: 0.8em;
     color: #000;
 }
 
+#lista-noticias li:hover{
+    background: #eee;
+    cursor: pointer;
+}
 
 /* Elemento com id "rodape" */
 #rodape{
