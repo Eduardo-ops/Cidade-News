@@ -33,10 +33,17 @@ body{
 
 /* Divisor vermelho entre as duas palavras do título para dar efeito */
 #divisor{
-    border: 1px solid #BEBEBE;
+    background: #fff;
+    height: 7px;
+    width: 160px;
+}
+
+/* Elemento com o id "detalhe-logo" */
+#detalhe-logo{
     background: red;
-    height: 4px;
-    width: 152px;
+    width: 40px;
+    height: 7px;
+    margin-left: 20px;
 }
 
 /* Links dentro do id="topo", teram o estilo abaixo realizado */
