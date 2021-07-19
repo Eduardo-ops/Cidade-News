@@ -164,12 +164,6 @@ h2{
     padding: 5px;
 }
 
-/* Elemento com id "container-rodape" */
-#container-rodape{
-    clear: both;
-    background: #000;
-}
-
 /* Elemento com a classe "caixa-conteudo" */
 .caixa-conteudo{
     background: #fff;
@@ -342,6 +336,12 @@ com id "lista-noticias-recentes" */
 #lista-noticias-recentes li:hover{
     background: #eee;
     cursor: pointer;
+}
+
+/* Elemento com id "container-rodape" */
+#container-rodape{
+    clear: both;
+    background: #000;
 }
 
 /* Elemento com id "rodape" */
