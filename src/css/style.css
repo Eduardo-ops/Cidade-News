@@ -116,6 +116,7 @@ com determinada classe.
 
 /* LAYOUT DE TRÊS COLUNAS PARA CONTEÚDO */
 
+/* Elemento com o id "conteudo" */
 #conteudo{
     margin-top: 140px;
     display: flex;
@@ -149,11 +150,13 @@ com determinada classe.
 
 /* CAIXA */
 
+/* Elemento com classe "caixa" */
 .caixa{
     margin: 10px 0;
     padding: 5px;
 }
 
+/* Elemento h2 estilizado*/
 h2{
     background: #294c71;
     font-size: 1.1em;
@@ -167,6 +170,7 @@ h2{
     background: #000;
 }
 
+/* Elemento com a classe "caixa-conteudo" */
 .caixa-conteudo{
     background: #fff;
     padding: 5px;
@@ -175,6 +179,8 @@ h2{
 
 /* MENUS LATERAIS */
 
+/* Elemento <a> dentro de um elemento lista <ul> e
+dentro de um elemento com o id "coluna-lateral" */
 #coluna-lateral ul a{
     font-size: 0.9em;
     padding: 3px;
@@ -185,6 +191,8 @@ h2{
     border-bottom: 1px solid #f3f3;
 }
 
+/* Elemento <a> em estado de hover que pertence a uma lista <li>
+dentro de um elemento com o id "coluna-lateral" */
 #coluna-lateral ul a:hover{
     background: #f9f9f9 url(../../imagens/marcador.png) no-repeat left center;
     padding-left: 25px;
@@ -192,11 +200,14 @@ h2{
 }
 
 /* FORMULÁRIO */
+
+/* Elemento label estilizado */
 label{
     display: block;
     cursor: pointer;
 }
 
+/* Elemento input estilizado */
 input{
     font-size: 0.9em;
     background: #fff;
@@ -204,6 +215,7 @@ input{
     padding: 5px
 }
 
+/* Elemento input com classe "submit" */
 input.submit{
     width: 80px;
     color: #fff;
@@ -215,6 +227,7 @@ input.submit{
 
 /* IMAEGNS */
 
+/* elemento img com a classe "imagem-principal" */
 img.imagem-principal{
     width: 98%;
     border: 3px solid #dfdfdf;
@@ -222,6 +235,7 @@ img.imagem-principal{
 
 /* CABECALHOS */
 
+/* Elemento <h3> com id "coluna-secundaria" */
 #coluna-secundaria h3{
     text-transform: uppercase;
     display: inline;
@@ -231,6 +245,7 @@ img.imagem-principal{
     color: #fff;
 }
 
+/* Elemento <h3> com id "coluna-primaria" */
 #coluna-primaria h3{
     text-transform: uppercase;
     display: inline;
@@ -242,21 +257,27 @@ img.imagem-principal{
 
 /* LISTA DE NOTÍCIAS DO MUNDO */
 
+/* Elemento <li> dentro de um elemento <ul> com id "lista-noticias" */
 #lista-noticias li{
     padding: 2px;
     border-bottom: 1px solid #f3f3;
     height: 75px;
 }
 
+/* Elemento <img> dentro de um elemento <a>, dentro de
+um elemento <li> que pertence a uma lista com id "lista-noticias" */
 #lista-noticias li a img{
     float: left;
     margin: 4px;
 }
 
+/* Elemento <a> dentro de um elemento <li> que está dentro de um elemento
+com id "lista-noticias" */
 #lista-noticias li a{
     text-decoration: none;
 }
 
+/* Elemento <h3> dentro de um elemento <li> dentro de um elemento com id "lista-noticias" */
 #lista-noticias li h3{
     padding: 0;
     font-size: 0.8em;
@@ -264,11 +285,13 @@ img.imagem-principal{
     background: none;
 }
 
+/* Elemento <p> dentro de um elemento <li> dentro de um elemento com id "lista-noticias" */
 #lista-noticias li p{
     font-size: 0.8em;
     color: #000;
 }
 
+/* Elemento <li> em estado de hover dentro de um elemento com id "lista-noticias" */
 #lista-noticias li:hover{
     background: #eee;
     cursor: pointer;
@@ -276,25 +299,32 @@ img.imagem-principal{
 
 /* LISTA DE NOTÍCIAS RECENTES */
 
+/* Elemento com classe "primeiro-link-recente" dentro de elemento com id "lista-noticias-recentes" */
 #lista-noticias-recentes .primeiro-link-recente{
     margin-top: 14px;
 }
 
+/* Elemento <li> dentro de um elemento <ul> com id "lista-noticias-recentes" */
 #lista-noticias-recentes li{
     padding: 2px;
     border-bottom: 1px solid #f3f3;
     height: 75px;
 }
 
+/* Elemento <img> dentro de um elemento <a>, dentro de
+um elemento <li> que pertence a uma lista com id "lista-noticias-recentes" */
 #lista-noticias-recentes li a img{
     float: left;
     margin: 4px;
 }
 
+/* Elemento <a> dentro de um elemento <li> que está dentro de um elemento
+com id "lista-noticias-recentes" */
 #lista-noticias-recentes li a{
     text-decoration: none;
 }
 
+/* Elemento <h3> dentro de um elemento <li> dentro de um elemento com id "lista-noticias-recentes" */
 #lista-noticias-recentes li h3{
     background: none;
     font-size: 0.8em;
@@ -302,11 +332,13 @@ img.imagem-principal{
     padding: 0;
 }
 
+/* Elemento <p> dentro de um elemento <li> dentro de um elemento com id "lista-noticias-recentes" */
 #lista-noticias-recentes li p{
     font-size: 0.8em;
     color: #000;
 }
 
+/* Elemento <li> em estado de hover dentro de um elemento com id "lista-noticias-recentes" */
 #lista-noticias-recentes li:hover{
     background: #eee;
     cursor: pointer;
