@@ -25,14 +25,7 @@ body{
 }
 
 /* Primeira palavra do título estilizada */
-.titulo-I{
-    font-size: 3em;
-    font-weight: bold;
-    color: #fff;
-}
-
-/* Segunda palavra do título estilizada */
-.titulo-II{
+#topo h1{
     font-size: 4em;
     font-weight: bold;
     color: #fff;
@@ -118,7 +111,7 @@ com determinada classe.
 
 #conteudo{
     /* background: cyan; */
-    margin-top: 120px;
+    margin-top: 140px;
     display: flex;
     flex-direction: row;
 }
