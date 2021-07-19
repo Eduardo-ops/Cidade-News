@@ -8,7 +8,7 @@
 /* body com background e font aplicada */
 body{
     font-family: Arial, sans-serif;
-    background: #fff url(../../imagens/fundo.png) repeat-x;
+    background: #fff url(../imagens/fundo.png) repeat-x;
 }
 
 /* Área principal dos conteúdos */
@@ -20,7 +20,7 @@ body{
 /* Área onde vai ficar a logo e figura do mapa */
 #topo{
     height: 150px;
-    background: url(../../imagens/detalhe-topo.png) no-repeat top right;
+    background: url(../imagens/detalhe-topo.png) no-repeat top right;
     padding-top: 20px;
 }
 
@@ -188,7 +188,7 @@ dentro de um elemento com o id "coluna-lateral" */
 /* Elemento <a> em estado de hover que pertence a uma lista <li>
 dentro de um elemento com o id "coluna-lateral" */
 #coluna-lateral ul a:hover{
-    background: #f9f9f9 url(../../imagens/marcador.png) no-repeat left center;
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
     padding-left: 25px;
     color: grey;
 }
