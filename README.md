@@ -7,9 +7,9 @@ Página principal
 
 Listas com notícias
 
-![image](https://user-images.githubusercontent.com/54048170/126206460-300cad04-daf4-4043-b46b-e0c6535c7538.png)
+![image](https://user-images.githubusercontent.com/54048170/126206836-4411cf28-fbf3-49d8-88f5-4fde35789229.png)
 
-Lista com efeito de background ao entrar em estado de hover.
+Lista lateral e inferiores com efeito de background ao entrar em estado de hover.
 
 ![image](https://user-images.githubusercontent.com/54048170/126206559-78465969-a7ed-49fa-8c7e-d208e83733e6.png)
 
