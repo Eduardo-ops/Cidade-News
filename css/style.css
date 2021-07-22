@@ -353,3 +353,8 @@ com id "lista-noticias-recentes" */
     color: #fff;
     font-size: 1.1em;
 }
+
+/* Elemento com id "empresa-dev" */
+#empresa-dev{
+    font-size: 0.8em;
+}
