@@ -1,5 +1,3 @@
 <?php
-
-    include_once("new.html");
-
+    include_once("index.html");
 ?>
